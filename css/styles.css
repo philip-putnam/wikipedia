@@ -26,9 +26,24 @@
 #topspacing {
   margin-bottom: 20px;
 }*/
+
+* {
+  margin: auto;
+  /*border: 2px solid black;*/
+}
+
+.toprightmenu {
+  width: 300px;
+  font-size: .9em;
+  padding-top: 15px;
+  margin-right: 20px;
+  text-align: right;
+}
+
 .leftmenu {
   float: left;
-  width: 10%;
+  width: 150px;
+  /*min-width: 150px;*/
   margin: 5px 10px;
   font-size: .9em;
 }
@@ -40,22 +55,19 @@
 
 .leftmenu li {
   line-height: 1.5em;
-}
-
-.toprightmenu {
-  text-align: right;
-  list-style: none;
-  margin-right: 20px;
+  color: darkblue;
 }
 
 p.leftmenu {
   color: black;
 }
 
-.leftmenu li {
-  color: darkblue;
-}
-
 #wikilogo {
   height: 80%;
+}
+
+.container {
+  float: left;
+  border: 2px solid black;
+  width: 800px;
 }
